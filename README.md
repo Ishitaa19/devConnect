@@ -2,7 +2,7 @@
 
 DevConnect is a simple and elegant personal portfolio generator built using HTML, CSS, and JavaScript. It's designed to help developers quickly create and download a stylish portfolio webpage with customizable sections — no frameworks or backend required!
 
-![DevConnect Screenshot](./"Screenshot (89).png") <!-- Optional: Add your own screenshot -->
+![DevConnect Screenshot](./"Screenshot89.png") <!-- Optional: Add your own screenshot -->
 
 ---
 
