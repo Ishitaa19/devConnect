@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevConnect - Portfolio Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>DevConnect</h1>
+    <p>Create your own developer portfolio in minutes!</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Enter Your Details</h2>
+      <form id="portfolioForm">
+        <input type="text" placeholder="Your Name" id="name" required />
+        <input type="text" placeholder="Your Profession" id="profession" required />
+        <textarea placeholder="Short Bio" id="bio" rows="4" required></textarea>
+        <input type="text" placeholder="Skills (comma-separated)" id="skills" required />
+        <input type="text" placeholder="Projects (comma-separated)" id="projects" required />
+        <button type="submit">Generate Portfolio</button>
+      </form>
+    </section>
+
+    <section class="preview-section">
+      <h2>Live Preview</h2>
+      <div id="portfolioPreview" class="preview-box"></div>
+      <button id="downloadBtn">Download Portfolio</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DevConnect</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>.
+</body>
+</html>
